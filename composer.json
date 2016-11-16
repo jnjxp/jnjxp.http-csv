@@ -8,7 +8,8 @@
         "php-http/httplug": "^1.0",
         "php-http/message-factory": "^1.0",
         "php-http/discovery": "^1.0",
-        "league/csv": "^8.1"
+        "league/csv": "^8.1",
+        "php-http/client-common": "^1.4"
     },
     "require-dev": {
         "php-http/mock-client": "^0.3.3",
