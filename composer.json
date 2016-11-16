@@ -1,0 +1,29 @@
+{
+    "name": "jnjxp/http-csv",
+    "description": "Parse a publicly hosted CSV. eg. Google Spreadsheet",
+    "type": "library",
+    "require": {
+        "psr/http-message": "^1.0",
+        "php-http/client-implementation": "^1.0",
+        "php-http/httplug": "^1.0",
+        "php-http/message-factory": "^1.0",
+        "php-http/discovery": "^1.0",
+        "league/csv": "^8.1"
+    },
+    "require-dev": {
+        "php-http/mock-client": "^0.3.3",
+        "zendframework/zend-diactoros": "~1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\HttpCsv\\": "src"
+        }
+    }
+}
